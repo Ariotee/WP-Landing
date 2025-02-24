@@ -1,0 +1,160 @@
+/* Basic styles */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: "Popins", sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 552px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+/* .header {
+} */
+
+.logo {
+  padding: 19px 0;
+}
+
+/* .logotype_img {
+} */
+
+.line {
+  background-color: #dfdfdf;
+  width: 100%;
+  height: 1px;
+}
+
+/* Main */
+
+/* .main {
+} */
+
+.hero {
+  padding: 25px 0;
+}
+
+.title_hero {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  color: #1c1e23;
+}
+
+/* Products */
+
+/* .products {
+} */
+
+.products_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 276px);
+  grid-template-rows: repeat(2, 436px);
+  row-gap: 26px;
+}
+
+/* .item {
+}
+
+.item_image {
+}
+
+.item_image-ill {
+} */
+
+.item_name {
+  margin-top: -20px;
+}
+
+.item_name-text {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: -0.01em;
+  color: #333;
+}
+
+.item_price {
+  margin-top: 5px;
+  margin-bottom: 16px;
+}
+
+.item_price-number {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #489dff;
+}
+
+/* .item_button {
+} */
+
+.item_button-action {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 107%;
+  text-align: center;
+  color: #fff;
+
+  border-radius: 7px;
+  padding: 16px 50px;
+  width: 131px;
+  height: 48px;
+  background-color: #489dff;
+  transition: all 0.3s ease-in-out;
+}
+
+.item_button-action:hover {
+  background-color: #4390e9;
+  transform: scale(1.05);
+}
+
+/* Footer */
+
+.footer_content {
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.privacy_text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 167%;
+  text-align: center;
+  color: #525f7f;
+}
+
+.contacts_email {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 167%;
+  text-align: center;
+  color: #525f7f;
+}
+
+.contacts_email-adress {
+  color: #489dff;
+}
+
+.contacts_icons {
+  margin-top: 15px;
+}
+
+.icons_grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.icons_grid-item a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
